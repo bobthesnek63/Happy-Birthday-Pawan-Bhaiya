@@ -8,6 +8,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js'></script>
     <link rel="stylesheet" href="/style.css">
+
+    <script>
+      window.onload = function(){
+        var context =  new AudioContext();
+      }
+    </script>
   </head>
   <body style="background-color: black; position: absolute">
 
@@ -26,8 +32,7 @@
       color: white">Thank you for always helping us out and being there.
         Since we cannot give you gifts or anything due to the pandemic, here is my birthday card.</h3>
 
-      <audio src="When Will I See You Again.mp3" autoplay></audio>
-
+      <audio id="music" style="opacity: 0" class="d-block mx-auto mt-5" src="When Will I See You Again.mp3" controls autoplay></audio>
 
         <!-- <div class="row">
         <div class="col-lg-4">
