@@ -1,4 +1,7 @@
 $(document).ready(function(){
+
+alert("If you want to listen to the music prepared with this website, please click the play button")
+
   $("#enter").animate({
     opacity: "0.9"
   }, 3000);
@@ -6,6 +9,10 @@ $(document).ready(function(){
   $("#open").delay(1000).animate({
     opacity: "0.9"
   }, 3000);
+
+    $("#music").animate({
+      opacity: "1"
+    }, 1000);
 
   $("#img").delay(7000).animate({
     opacity: "1"
